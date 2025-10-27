@@ -33,9 +33,12 @@ ul {
 
 html,
 body {
-  height: 100%;
-  overflow: hidden;
+  height: auto;          /* biar tinggi mengikuti isi halaman */
+  min-height: 100vh;     /* tetap full 1 layar minimal */
+  overflow-y: auto;      /* aktifkan scroll */
+  background-color: #d95550; /* opsional: biar warnanya tetap */
 }
+
 
 #root {
   min-height: 100vh;

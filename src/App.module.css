@@ -1,4 +1,6 @@
 .container {
+  min-height: 100vh; /* bukan height: 100vh */
+  overflow-y: auto; /* aktifkan scroll */
   display: flex;
   flex-grow: 1;
   flex-direction: column;

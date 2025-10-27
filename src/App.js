@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import classes from "./App.module.css";
 import Timer from "./components/Timer";
+import TaskList from "./components/TaskList";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <div className={classes.content}>
         <Timer />
+        <TaskList />
       </div>
     </div>
   );
